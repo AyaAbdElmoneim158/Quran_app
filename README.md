@@ -1,3 +1,6 @@
 # Quran_app 📌
 
-- Add flutter App
+## \* Steps 🐾
+
+- <b> Add flutter App
+- <b> Add Configuration (json + assets + colors + routes + Theme + global_variables + audioplayers_helper)
