@@ -1,1 +1,3 @@
-# Quran_app
+# Quran_app 📌
+
+- Add flutter App
