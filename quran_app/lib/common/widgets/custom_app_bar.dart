@@ -1,10 +1,10 @@
-import '../../constants/global_variables.dart';
+import 'package:quran_app/util/app_color.dart';
+import 'package:quran_app/util/global_variables.dart';
+
 import '../../models/surah_model.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
-
-import '../../constants/app_color.dart';
 
 class CustomAppBar extends StatefulWidget implements PreferredSizeWidget {
   const CustomAppBar(

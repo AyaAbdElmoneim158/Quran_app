@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:quran_app/util/app_color.dart';
 
 class SplashImage extends StatelessWidget {
   const SplashImage({super.key});
@@ -19,7 +21,7 @@ class SplashImage extends StatelessWidget {
           bottom: -30,
           child: InkWell(
             onTap: () {
-              Get.to(() => const BottomBar(), arguments: {
+              Get.to(() => const BottomAppBar(), arguments: {
                 'index': 0,
               });
             },

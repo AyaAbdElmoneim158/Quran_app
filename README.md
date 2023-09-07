@@ -9,3 +9,4 @@
 - <b> Add Screens
   - <b> Add SplashScreen
   - <b> Add NavBottomBar
+    - Add HomeScreen

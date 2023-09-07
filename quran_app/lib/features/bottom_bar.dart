@@ -1,8 +1,4 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
-import 'package:apps/features/azhkar/screens/azhkar_screen.dart';
-import 'package:apps/features/bookmark/screens/bookmark.dart';
-import 'package:apps/features/hadith/screen/hadith_screen.dart';
-import 'package:apps/features/home/screen/home_screen.dart';
 import 'package:flutter/material.dart';
 
 class BottomBar extends StatefulWidget {
@@ -15,12 +11,16 @@ class BottomBar extends StatefulWidget {
 class _BottomBarState extends State<BottomBar> {
   int currentIndex = 0;
   List<Widget> screens = [
-    const HomeScreen(),
-    const HadithScreen(),
-    const AzhkarScreen(),
-    // const Center(child: Text("4", style: TextStyle(fontSize: 24))),
+    // const HomeScreen(),
+    // const HadithScreen(),
+    // const AzhkarScreen(),
+    const Center(child: Text("1", style: TextStyle(fontSize: 24))),
+    const Center(child: Text("2", style: TextStyle(fontSize: 24))),
+    const Center(child: Text("3", style: TextStyle(fontSize: 24))),
+    const Center(child: Text("4", style: TextStyle(fontSize: 24))),
+    const Center(child: Text("5", style: TextStyle(fontSize: 24))),
     // const Center(child: Text("BookmarkScreen", style: TextStyle(fontSize: 24))),
-    const BookmarkScreen()
+    // const BookmarkScreen()
   ];
 
   @override

@@ -1,5 +1,5 @@
-import '../../constants/app_color.dart';
 import 'package:flutter/material.dart';
+import 'package:quran_app/util/app_color.dart';
 
 class BuildGeneralCard extends StatelessWidget {
   const BuildGeneralCard(

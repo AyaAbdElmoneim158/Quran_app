@@ -1,13 +1,9 @@
 import 'dart:async';
-
-import 'package:quran_app/features/splash/widgets/splash_image.dart';
-import 'package:quran_app/features/splash/widgets/splash_intro_text.dart';
-
-import '../../../constants/bottom_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:google_fonts/google_fonts.dart';
-import '../../../constants/app_color.dart';
+import 'package:quran_app/features/bottom_bar.dart';
+import 'package:quran_app/features/splash/widgets/splash_image.dart';
+import 'package:quran_app/features/splash/widgets/splash_intro_text.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
