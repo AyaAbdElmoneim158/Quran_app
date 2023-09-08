@@ -19,7 +19,7 @@ The Quran application is designed to offer users some features such as:
 
 - <b> Add flutter App
 - <b> Add Configuration (json + colors + routes + Theme + global_variables + audioplayers_helper)
-- <b> Add Assets + Audios? + Packages
+- <b> Add Assets + Audios + Packages
 - <b> Add Models
 - <b> Add Screens
   - <b> Add SplashScreen
@@ -27,6 +27,7 @@ The Quran application is designed to offer users some features such as:
     - Add HomeScreen
     - Add HadithScreen
     - Add AzhkarScreen
+    - Add Bookmark
 
 <hr>
 <h2 align="center"> <em>Auth Screens</em></h2>

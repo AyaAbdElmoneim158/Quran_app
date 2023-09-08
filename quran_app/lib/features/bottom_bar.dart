@@ -1,6 +1,7 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'package:flutter/material.dart';
-import 'package:quran_app/features/azhkar/screens/azhkar_screen.dart';
+import 'package:quran_app/features/azhkar/azhkar_screen.dart';
+import 'package:quran_app/features/bookmark/bookmark.dart';
 import 'package:quran_app/features/hadith/screen/hadith_screen.dart';
 import 'package:quran_app/features/home/screen/home_screen.dart';
 
@@ -17,8 +18,7 @@ class _BottomBarState extends State<BottomBar> {
     const HomeScreen(),
     const HadithScreen(),
     const AzhkarScreen(),
-    const Center(child: Text("3", style: TextStyle(fontSize: 24))),
-    // const BookmarkScreen()
+    const BookmarkScreen()
   ];
 
   @override
