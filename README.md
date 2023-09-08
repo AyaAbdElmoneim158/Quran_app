@@ -26,6 +26,7 @@ The Quran application is designed to offer users some features such as:
   - <b> Add NavBottomBar
     - Add HomeScreen
     - Add HadithScreen
+    - Add AzhkarScreen
 
 <hr>
 <h2 align="center"> <em>Auth Screens</em></h2>

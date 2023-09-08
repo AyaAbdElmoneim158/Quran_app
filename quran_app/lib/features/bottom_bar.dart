@@ -1,5 +1,6 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'package:flutter/material.dart';
+import 'package:quran_app/features/azhkar/screens/azhkar_screen.dart';
 import 'package:quran_app/features/hadith/screen/hadith_screen.dart';
 import 'package:quran_app/features/home/screen/home_screen.dart';
 
@@ -15,13 +16,8 @@ class _BottomBarState extends State<BottomBar> {
   List<Widget> screens = [
     const HomeScreen(),
     const HadithScreen(),
-    // const AzhkarScreen(),
-    // const Center(child: Text("1", style: TextStyle(fontSize: 24))),
-    const Center(child: Text("2", style: TextStyle(fontSize: 24))),
+    const AzhkarScreen(),
     const Center(child: Text("3", style: TextStyle(fontSize: 24))),
-    // const Center(child: Text("4", style: TextStyle(fontSize: 24))),
-    // const Center(child: Text("5", style: TextStyle(fontSize: 24))),
-    // const Center(child: Text("BookmarkScreen", style: TextStyle(fontSize: 24))),
     // const BookmarkScreen()
   ];
 
