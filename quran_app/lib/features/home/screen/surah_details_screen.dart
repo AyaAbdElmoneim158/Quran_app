@@ -11,12 +11,14 @@ class SurahDetailsScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: CustomAppBar(
-        searchedList: [],
-        title: surah.nameTranslation,
-        iconPath: "assets/icons/backArrow.png",
-        onPressedLeading: () => Get.back(),
-      ),
+      appBar: AppBar(
+          title: Text(surah.nameTranslation),
+          elevation: 0,
+          leading: IconButton(
+            onPressed: () => Get.back(),
+            icon: Image.asset("assets/icons/backArrow.png"),
+          ),
+          actions: []),
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 16),

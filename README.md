@@ -1,4 +1,5 @@
 # 🔹Quran_app 📖
+
 <div align="center">
     <img src="https://user-images.githubusercontent.com/114832629/230302399-5d8f34e7-bfc5-4597-8fff-6293044f47bd.png" alt="react logo" width=230> 
     &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
@@ -24,11 +25,11 @@ The Quran application is designed to offer users some features such as:
   - <b> Add SplashScreen
   - <b> Add NavBottomBar
     - Add HomeScreen
-   
+    - Add HadithScreen
+
 <hr>
 <h2 align="center"> <em>Auth Screens</em></h2>
   <div align="center">
          <img src="" title="Home Screen" width="200px" height="auto" >&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
          <img src="" title="Details Screen" width="200px" height="auto"> 
   </div>
-

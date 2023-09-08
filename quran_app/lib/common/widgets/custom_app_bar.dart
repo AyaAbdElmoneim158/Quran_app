@@ -44,34 +44,35 @@ class _CustomAppBarState extends State<CustomAppBar> {
   }
 
   List<Widget> _buildAppBarActions() {
-    if (isSearch) {
-      return [
-        IconButton(
-            onPressed: () {
-              // toDo: StopSearched
-              _clearSearched();
-              Navigator.pop(context);
-            },
-            icon: const Icon(
-              Icons.clear,
-              color: AppColors.kTextMediumColor,
-            )),
-        _changeTheme()
-      ];
-    } else {
-      return [
-        IconButton(
-            onPressed: () {
-              // toDo: StartSearched
-              _startSearched();
-            },
-            icon: const Icon(
-              Icons.search,
-              color: AppColors.kTextMediumColor,
-            )),
-        _changeTheme()
-      ];
-    }
+    return [_changeTheme()];
+    // if (isSearch) {
+    //   return [
+    //     IconButton(
+    //         onPressed: () {
+    //           // toDo: StopSearched
+    //           _clearSearched();
+    //           Navigator.pop(context);
+    //         },
+    //         icon: const Icon(
+    //           Icons.clear,
+    //           color: AppColors.kTextMediumColor,
+    //         )),
+
+    //   ];
+    // } else {
+    //   return [
+    //     IconButton(
+    //         onPressed: () {
+    //           // toDo: StartSearched
+    //           _startSearched();
+    //         },
+    //         icon: const Icon(
+    //           Icons.search,
+    //           color: AppColors.kTextMediumColor,
+    //         )),
+    //     _changeTheme()
+    //   ];
+    // }
   }
 
   Widget _buildSearchFelid() {
@@ -147,6 +148,7 @@ class _CustomAppBarState extends State<CustomAppBar> {
   @override
   Widget build(BuildContext context) {
     return AppBar(
+      centerTitle: true,
       elevation: 0,
       leading: IconButton(
         onPressed: widget.onPressedLeading,

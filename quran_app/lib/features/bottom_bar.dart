@@ -1,5 +1,6 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'package:flutter/material.dart';
+import 'package:quran_app/features/hadith/screen/hadith_screen.dart';
 import 'package:quran_app/features/home/screen/home_screen.dart';
 
 class BottomBar extends StatefulWidget {
@@ -13,9 +14,9 @@ class _BottomBarState extends State<BottomBar> {
   int currentIndex = 0;
   List<Widget> screens = [
     const HomeScreen(),
-    // const HadithScreen(),
+    const HadithScreen(),
     // const AzhkarScreen(),
-    const Center(child: Text("1", style: TextStyle(fontSize: 24))),
+    // const Center(child: Text("1", style: TextStyle(fontSize: 24))),
     const Center(child: Text("2", style: TextStyle(fontSize: 24))),
     const Center(child: Text("3", style: TextStyle(fontSize: 24))),
     // const Center(child: Text("4", style: TextStyle(fontSize: 24))),
