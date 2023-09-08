@@ -136,10 +136,12 @@ class _CustomAppBarState extends State<CustomAppBar> {
   void _stopSearched() {
     _clearSearched();
     setState(() => isSearch = false);
+    searchedList = widget.searchedList;
   }
 
   void _clearSearched() {
     setState(() => _textEditingController.clear());
+    searchedList = widget.searchedList;
   }
 
   @override

@@ -1,4 +1,5 @@
 import 'package:animate_do/animate_do.dart';
+import 'package:quran_app/common/widgets/custom_app_bar.dart';
 import 'package:quran_app/util/app_color.dart';
 import 'package:quran_app/util/global_variables.dart';
 import '../widgets/quran_card.dart';
@@ -45,19 +46,27 @@ class _HomeScreenState extends State<HomeScreen> {
     });
   }
 
+  final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // drawer: Drawer(),
-      appBar: AppBar(
+      key: _scaffoldKey,
+      drawer: const Drawer(),
+      appBar:
+          //  CustomAppBar(searchedList: surahList),
+          AppBar(
         elevation: 0,
         leading: IconButton(
-          onPressed: () {},
+          onPressed: () {
+            _scaffoldKey.currentState!.openDrawer();
+          },
           icon: Image.asset("assets/icons/menu.png"),
         ),
         title: _buildAppBarTitle(),
         actions: _buildAppBarActions(),
       ),
+      // drawer: Container(),
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 16),
@@ -163,10 +172,12 @@ class _HomeScreenState extends State<HomeScreen> {
   void _stopSearched() {
     _clearSearched();
     setState(() => isSearch = false);
+    searchedList = surahList;
   }
 
   void _clearSearched() {
     setState(() => _textEditingController.clear());
+    searchedList = surahList;
   }
 
   IconButton _changeTheme() {

@@ -6,7 +6,6 @@ import 'package:get/get.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-
   AudioplayersHelper.init();
   runApp(const MyApp());
 }

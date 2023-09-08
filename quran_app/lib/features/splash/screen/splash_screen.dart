@@ -29,7 +29,11 @@ class _SplashScreenState extends State<SplashScreen> {
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: [SplashIntroText(), SizedBox(height: 49), SplashImage()],
+          children: [
+            SplashIntroText(),
+            SizedBox(height: 49),
+            SplashImage(),
+          ],
         ),
       ),
     );
