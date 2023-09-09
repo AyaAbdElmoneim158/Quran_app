@@ -30,8 +30,17 @@ The Quran application is designed to offer users some features such as:
     - Add Bookmark
 
 <hr>
-<h2 align="center"> <em>Auth Screens</em></h2>
+<h2 align="center"> <em>Screens</em></h2>
   <div align="center">
-         <img src="" title="Home Screen" width="200px" height="auto" >&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-         <img src="" title="Details Screen" width="200px" height="auto"> 
+         <img src="https://github.com/AyaAbdElmoneim158/Quran_app/assets/114832629/1eae9679-31f8-444f-9f6c-b3057bd51b6e" title="Home Screen" width="200px" height="auto" >&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+         <img src="https://github.com/AyaAbdElmoneim158/Quran_app/assets/114832629/136a6ac7-9868-4cd8-85a6-021fc9794126" title="Details Screen" width="200px" height="auto"> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+         <img src="https://github.com/AyaAbdElmoneim158/Quran_app/assets/114832629/1cfcd9ae-7b5c-42eb-8748-5c779e58871f" title="Details Screen" width="200px" height="auto"> 
+  </div>
+
+<br><br>
+  <div align="center">
+         <img src="https://github.com/AyaAbdElmoneim158/Quran_app/assets/114832629/7dc9c1b2-debf-44b6-8bf6-f135dece3ee7" title="Home Screen" width="200px" height="auto" >&emsp;&emsp;&emsp;
+         <img src="https://github.com/AyaAbdElmoneim158/Quran_app/assets/114832629/9003b577-e2a9-4d05-8a0d-0d9557f16405" title="Details Screen" width="200px" height="auto">&emsp;&emsp;&emsp;
+         <img src="https://github.com/AyaAbdElmoneim158/Quran_app/assets/114832629/3c6b1f95-7050-4e4d-a19c-5a5362f79a1c" title="Details Screen" width="200px" height="auto">&emsp;&emsp;&emsp;
+         <img src="https://github.com/AyaAbdElmoneim158/Quran_app/assets/114832629/6689d1bd-d77d-4a58-9f92-5704c646a4f0" title="Details Screen" width="200px" height="auto"> 
   </div>
